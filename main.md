@@ -1,3 +1,5 @@
+[//]: # (13/09/2023)
+
 # Update Changelog
 
 We're excited to introduce a major update to Serhant GPT with a range of new features and improvements! Here's a

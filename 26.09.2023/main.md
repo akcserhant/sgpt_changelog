@@ -1,4 +1,6 @@
-# Update Changelog 26.09.2023
+[//]: # (26/09/2023)
+
+# Update Changelog
 
 We're excited to introduce some enhancements to your real estate agent toolkit in this minor update. These changes are
 centered around improving the image editing experience. Let's dive into the details:
