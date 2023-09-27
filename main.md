@@ -1,181 +1,63 @@
-[//]: # (13/09/2023)
+[//]: # (26/09/2023)
 
 # Update Changelog
 
-We're excited to introduce a major update to Serhant GPT with a range of new features and improvements! Here's a
-detailed overview of what's new in this release:
+We're excited to introduce some enhancements to your real estate agent toolkit in this minor update. These changes are
+centered around improving the image editing experience. Let's dive into the details:
 
-## **User Favorites and Filtering**
+## **Editing Images Page Improvements**
 
-### **Add Listings to Favorites**
+### **1. New Image Filters**
 
-You can now easily mark listings as your favorites by clicking on the heart icon. Keep track of the properties you love!
+We've added some powerful new filters to help you create more precise and visually appealing images for your real estate
+listings. These filters are designed to make your property photos shine.
 
-![Favorite Icon](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/heart.PNG?raw=true)
+![New basic filter](https://github.com/akcserhant/sgpt_changelog/blob/main/26.09.2023/new-basic-filter.jpg?raw=true)
 
-### **Filter Listings**
+#### **Toggle Buttons**
 
-A new toggle button in the top menu allows you to switch between "All Listings" and "User Listings," making it simple to
-view the properties you've favorited. The button also indicates which listings you're currently browsing.
+- Introducing **Photo Composition Style** and **Room Type** filters. These filters are now required to ensure you create
+  the best possible images. Don't worry; we've made it user-friendly!
+- Select your preferred Photo Composition Style and Room Type from the toggle buttons. If you forget to choose them,
+  you'll see red labels as a reminder. Your images deserve the best, and these filters will make sure of it!
 
-![Toggle Button](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/choosing_only_user_listings.png?raw=true)
+![Required fields](https://github.com/akcserhant/sgpt_changelog/blob/main/26.09.2023/required-fields.jpg?raw=true)
 
-## **User Profile Enhancements**
+#### **Multi-Select Field**
 
-### **Profile Navigation**
+- We understand that sometimes you need more specific options. That's why we've introduced a versatile multi-select
+  field.
+- In this field, you can type in keywords related to your property, and our system will provide you with appropriate
+  options. Feel free to choose multiple options, and if you accidentally select something you didn't mean to, you can
+  easily delete it.
+- We've categorized the options to make your selection process more organized. Finding the perfect filter attributes has
+  never been easier!
 
-Click on your username or profile photo in the header to access a convenient menu that lets you navigate to your profile
-page or make other profile-related actions.
+![Attributes list](https://github.com/akcserhant/sgpt_changelog/blob/main/26.09.2023/attributes-list.jpg?raw=true)
 
-![Profile Menu](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/main_page_profile.PNG?raw=true)
+#### **Randomize button**
 
-### **Profile Page Content**
+We've saved the best for last! Introducing the Randomize Button, your new secret weapon for creating unique and
+eye-catching property listings.
 
-Your profile page has been revamped with four distinct content sections:
+- Need a touch of creativity or a fresh perspective? Click the Randomize Button to instantly transform your image with a
+  dash of unpredictability. You never know what hidden gem it might reveal!
+- This feature is perfect for adding an element of surprise and delight to your listings, ensuring your properties capture
+  the attention of potential buyers in unexpected ways.
 
-![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_tabs.PNG?raw=true)
+### **2. Image Preview**
 
-- **Profile Listing Section**: Easily manage and view all your liked listings. Unlike or navigate to the listing page
-  for more details.
+A picture is worth a thousand words, and we want you to see the difference our filters make. That's why we've added a
+new image preview feature.
 
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_listings_favorite_1.PNG?raw=true)
+![Improved generated images preview](https://github.com/akcserhant/sgpt_changelog/blob/main/26.09.2023/new-generated-preview.jpg?raw=true)
 
-- **Generated Images Section**: Explore all generated images and their settings. Mark your favorite images with a heart
-  icon or view them in detail using the eye icon.
+- Look to the top right corner of your screen, and you'll find a handy preview of an image item generated with your
+  chosen filters. This preview allows you to see the transformation before committing to it.
+- If you want to examine the image in detail, simply click on it. We believe this addition will help you make informed
+  decisions about your property images.
 
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_generatedImages_1.PNG?raw=true)
+![Old image preview](https://github.com/akcserhant/sgpt_changelog/blob/main/26.09.2023/old-item-preview.jpg?raw=true)
 
-- **Chats Section**: Access all your chat conversations, including initial prompts and response counts. Click "View
-  Conversation" to see the entire chat.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_chats_1.PNG?raw=true)
-
-- **Saved Filters Section**: Organize and access your saved image filter presets. Add filters to your favorites or apply
-  them on the Editing Images Page.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_savedFilters_1.PNG?raw=true)
-
-## **AI Assistant "Patterson"**
-
-### **Patterson Chat**
-
-![Patterson Chat](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/patterson.PNG?raw=true)
-
-Meet Peterson, our new AI assistant! Patterson is here to assist you with using features and answering your questions.
-Simply click on the "S" circle button in the bottom right corner to initiate a chat with Peterson.
-
-![Patterson Chat](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/patterson_chat.png?raw=true)
-
-## **Listing Item Page**
-
-### **Listing Details**
-
-We've added a dedicated Listing Item Page where you can find comprehensive information about a specific listing. Here's
-what you'll find:
-
-![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_listings_favorite_1.PNG?raw=true)
-
-- Photos of the listing with icons for detailed image viewing and liking/disliking.
-
-![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/photos_watcher.png?raw=true)
-
-- Listing details, specifications, and other relevant information.
-
-- An interactive map showing the location of the listing and nearby properties. Choose from three different map modes
-  for your convenience.
-  ![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/map_info.png?raw=true)
-  ![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/map_styles.png?raw=true)
-
-
-## Summary
-With these exciting new features and improvements, we hope you enjoy an enhanced experience on Serhant GPT. Happy and useful
-exploring!# Update Changelog
-
-We're excited to introduce a major update to Serhant GPT with a range of new features and improvements! Here's a
-detailed overview of what's new in this release:
-
-## **User Favorites and Filtering**
-
-### **Add Listings to Favorites**
-
-You can now easily mark listings as your favorites by clicking on the heart icon. Keep track of the properties you love!
-
-![Favorite Icon](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/heart.PNG?raw=true)
-
-### **Filter Listings**
-
-A new toggle button in the top menu allows you to switch between "All Listings" and "User Listings," making it simple to
-view the properties you've favorited. The button also indicates which listings you're currently browsing.
-
-![Toggle Button](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/choosing_only_user_listings.png?raw=true)
-
-## **User Profile Enhancements**
-
-### **Profile Navigation**
-
-Click on your username or profile photo in the header to access a convenient menu that lets you navigate to your profile
-page or make other profile-related actions.
-
-![Profile Menu](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/main_page_profile.PNG?raw=true)
-
-### **Profile Page Content**
-
-Your profile page has been revamped with four distinct content sections:
-
-![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_tabs.PNG?raw=true)
-
-- **Profile Listing Section**: Easily manage and view all your liked listings. Unlike or navigate to the listing page
-  for more details.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_listings_favorite_1.PNG?raw=true)
-
-- **Generated Images Section**: Explore all generated images and their settings. Mark your favorite images with a heart
-  icon or view them in detail using the eye icon.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_generatedImages_1.PNG?raw=true)
-
-- **Chats Section**: Access all your chat conversations, including initial prompts and response counts. Click "View
-  Conversation" to see the entire chat.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_chats_1.PNG?raw=true)
-
-- **Saved Filters Section**: Organize and access your saved image filter presets. Add filters to your favorites or apply
-  them on the Editing Images Page.
-
-  ![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_savedFilters_1.PNG?raw=true)
-
-## **AI Assistant "Patterson"**
-
-### **Patterson Chat**
-
-![Patterson Chat](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/patterson.PNG?raw=true)
-
-Meet Peterson, our new AI assistant! Patterson is here to assist you with using features and answering your questions.
-Simply click on the "S" circle button in the bottom right corner to initiate a chat with Peterson.
-
-![Patterson Chat](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/patterson_chat.png?raw=true)
-
-## **Listing Item Page**
-
-### **Listing Details**
-
-We've added a dedicated Listing Item Page where you can find comprehensive information about a specific listing. Here's
-what you'll find:
-
-![Profile Navigation](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/profile_listings_favorite_1.PNG?raw=true)
-
-- Photos of the listing with icons for detailed image viewing and liking/disliking.
-
-![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/photos_watcher.png?raw=true)
-
-- Listing details, specifications, and other relevant information.
-
-- An interactive map showing the location of the listing and nearby properties. Choose from three different map modes
-  for your convenience.
-  ![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/map_info.png?raw=true)
-  ![Listing Item Page](https://github.com/akcserhant/sgpt_changelog/blob/main/13.09.2023/map_styles.png?raw=true)
-
-
-## Summary
-With these exciting new features and improvements, we hope you enjoy an enhanced experience on Serhant GPT. Happy and useful
-exploring!
+We hope these enhancements to the Editing Images Page make your job as a real estate agent even more efficient and
+enjoyable. Your feedback is invaluable to us, so please don't hesitate to share your thoughts or suggestions.
